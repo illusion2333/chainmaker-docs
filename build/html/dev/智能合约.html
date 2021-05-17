@@ -323,7 +323,7 @@ emmake make
 <p>其中存证的合约方法定义为：</p>
 <div class="highlight-c++ notranslate"><div class="highlight"><pre><span></span><span class="cp">#include</span> <span class="cpf">&quot;chainmaker/chainmaker.h&quot;</span><span class="cp"></span>
 
-<span class="k">using</span> <span class="k">namespace</span> <span class="nn">chainmaker</span><span class="p">;</span>
+<span class="k">using</span> <span class="k">namespace</span> <span class="n">chainmaker</span><span class="p">;</span>
 
 <span class="k">class</span> <span class="nc">Counter</span> <span class="o">:</span> <span class="k">public</span> <span class="n">Contract</span> <span class="p">{</span>
 <span class="k">public</span><span class="o">:</span>
@@ -405,7 +405,7 @@ emmake make
 <p>2、通过文件哈希查询该条记录</p>
 <div class="highlight-c++ notranslate"><div class="highlight"><pre><span></span><span class="cp">#include</span> <span class="cpf">&quot;chainmaker/chainmaker.h&quot;</span><span class="cp"></span>
 
-<span class="k">using</span> <span class="k">namespace</span> <span class="nn">chainmaker</span><span class="p">;</span>
+<span class="k">using</span> <span class="k">namespace</span> <span class="n">chainmaker</span><span class="p">;</span>
 
 <span class="k">class</span> <span class="nc">Counter</span> <span class="o">:</span> <span class="k">public</span> <span class="n">Contract</span> <span class="p">{</span>
 <span class="k">public</span><span class="o">:</span>
@@ -612,7 +612,7 @@ emmake make
 <h3><span class="section-number">1.2.1. </span>使用Docker镜像进行合约开发<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
 <p>ChainMaker官方已经将容器发布至GitHub</p>
 <p>拉取镜像</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">chainmakeroffcial</span><span class="o">/</span><span class="n">chainmaker</span><span class="o">-</span><span class="n">go</span><span class="o">-</span><span class="n">contract</span><span class="p">:</span><span class="mf">1.1.0</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">chainmakeroffcial</span><span class="o">/</span><span class="n">chainmaker</span><span class="o">-</span><span class="n">go</span><span class="o">-</span><span class="n">contract</span><span class="p">:</span><span class="mf">1.1</span><span class="o">.</span><span class="mi">0</span>
 </pre></div>
 </div>
 <p>请指定你本机的工作目录$WORK_DIR，例如C:\tmp，挂载到docker容器中以方便后续进行必要的一些文件拷贝</p>
